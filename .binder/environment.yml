@@ -1,0 +1,16 @@
+name: pythermalcomfort
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.9
+  - numpy
+  - xarray
+  - scipy
+  - numba
+  - ipykernel
+  - matplotlib
+  - cartopy
+  - netcdf4
+  - pip:
+    - git+https://github.com/larsbuntemeyer/pythermalcomfort.git@utci-notebook
